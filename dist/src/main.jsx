@@ -15,6 +15,7 @@ Desde sua formação, o quarteto tem seu foco principal na experimentação com 
 No fim de 2023, a banda lançou seu mais novo álbum, “Presença Vip no Bar do Baiano”, onde houve um foco maior em intercalar o noisecore com as referências do brega. Em comemoração foi realizada a tour “No brega nós cremos” passando pelo Paraná e São Paulo durante o início de 2024.
 `
 const titulo = "Sobre a banda D.S.T Noise"
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Nav/>
