@@ -2,7 +2,6 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Nav from './Nav.jsx'
 import Card from './Card.jsx'
-import Carrossel from './Carrossel.jsx'
 //importe por ultimo a folha personalizada para evitar sobrescrita de CSS padrão do bootstrap
 import './layout.css'
 
