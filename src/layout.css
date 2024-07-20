@@ -1,0 +1,58 @@
+body {
+    background: url('img/background_psicodelico.gif');
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    
+}
+
+.nav_estilo{
+    background-color: rgb(250, 255, 227);
+    border-bottom: dotted;
+    
+}
+.card_roxo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 3%;
+    background-color: rgba(172, 34, 232, 0.535);
+    margin: 3%;
+    border-radius: 20px;
+    border-style: dotted;
+    p{
+    text-align: justify;
+    }
+    h2{
+        text-align: center;
+    }
+}
+.card_roxo:hover{
+    background-color: rgba(244, 53, 158, 0.56);
+}
+.pai_coluna_fixa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.filho_carrossel{
+    margin: 0 auto;
+     width: 70%; 
+     margin:3%
+}
+
+.pai_responsiva{
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+    @media only screen and (max-width: 400px) {
+        .pai_responsiva{
+        flex-direction: column;
+        }
+}
