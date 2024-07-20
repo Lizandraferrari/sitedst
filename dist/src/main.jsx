@@ -5,7 +5,7 @@ import Card from './Card.jsx'
 import 'bootstrap/dist/css/bootstrap.css'; 
 
 //importe por ultimo a folha personalizada para evitar sobrescrita de CSS padrão do bootstrap
-import 'layout.css'
+import './layout.css'
 
 //renderiza os componentes
 const release =          
