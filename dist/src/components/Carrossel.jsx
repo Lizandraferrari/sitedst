@@ -1,5 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.css'; 
 import Carousel from 'react-bootstrap/Carousel'; 
+import foto1 from '../img/jadema.jpeg'
+import foto2 from '../img/guitarra.jpg'
+import foto3 from '../img/diabodema.jpeg'
+
 
 export default function Carrossel() { 
 return ( 
@@ -9,7 +13,7 @@ return (
 		<Carousel.Item interval={2600}> 
 		<img 
 			className="d-block w-100"
-src="./img/ftsBanda/diabodema.jpeg"
+src={foto1}
 		/> 
 		<Carousel.Caption> 
 			<h3>Integrantes da D.S.T Noise</h3> 
@@ -17,27 +21,14 @@ src="./img/ftsBanda/diabodema.jpeg"
 		</Carousel.Caption> 
 		</Carousel.Item> 
 
-		<Carousel.Item interval={2600}> 
-		<img 
-			className="d-block w-100"
-src="./img/ftsBanda/guitarra.jpg"
-		/> 
-		<Carousel.Caption> 
-			<h3>Guitarra do cigano</h3> 
-			<p>Show da FunHouse.
-                Foto: @seila
-                </p> 
-		</Carousel.Caption> 
-		</Carousel.Item> 
-
         <Carousel.Item interval={2600}> 
 		<img 
 			className="d-block w-100"
-src="./img/ftsBanda/capa.png"
+src={foto3}
 		/> 
 		<Carousel.Caption> 
-			<h3></h3> 
-			<p></p> 
+		<h3>Integrantes da D.S.T Noise</h3> 
+		<p>Pós ensaio em Diadema</p> 
 		</Carousel.Caption>
         </Carousel.Item> 
 	</Carousel> 
@@ -45,4 +36,3 @@ src="./img/ftsBanda/capa.png"
     </div>
 ); 
 }
-

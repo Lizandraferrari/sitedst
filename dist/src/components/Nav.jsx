@@ -1,12 +1,12 @@
 import 'bootstrap/js/dist/dropdown';
-import logo from'./img/png.png';
+import logo from'../img/png.png';
 
 
 export default function Nav() {
   return (
     <nav class="navbar navbar-expand-lg nav_estilo">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
           <img src={logo} width="10%" /></a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,7 +15,7 @@ export default function Nav() {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Nossas Influências</a>
+              <a class="nav-link" href="#">Nossas Influências</a>
             </li>
 
             <li class="nav-item">
@@ -27,7 +27,7 @@ export default function Nav() {
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Nosso Fã Clube</a>
+              <a class="nav-link" href="/faclube">Nosso Fã Clube</a>
             </li>
 
             <li class="nav-item dropdown">
