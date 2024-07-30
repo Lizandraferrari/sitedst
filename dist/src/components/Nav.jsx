@@ -39,7 +39,7 @@ export default function Nav() {
                 <li><hr class="dropdown-divider" /></li>
                 <li><a class="dropdown-item" href="#">May Tsé Tung</a></li>
                 <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Diogo Rogério Cigano</a></li>
+                <li><a class="dropdown-item" href="/integrantes/cigano">Diogo Rogério Cigano</a></li>
                 <li><hr class="dropdown-divider" /></li>
                 <li><a class="dropdown-item" href="#">Lizandra</a></li>
                 <li><hr class="dropdown-divider" /></li>

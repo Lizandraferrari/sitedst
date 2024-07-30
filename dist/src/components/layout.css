@@ -2,10 +2,6 @@ body {
     background: url('../img/background_psicodelico.gif');
     font-family: "Comic Sans MS",  sans-serif;
 }
-@font-face {
-    font-family: 'Comic Sans MS';
-    src: url("comic-sans-ms/comici.ttf");
-  }
 
 .nav_estilo {
     background-color: rgb(250, 255, 227);
@@ -71,7 +67,46 @@ body {
 .card_roxo:hover {
     background-color: rgba(244, 53, 158, 0.56);
 }
+.card_rosa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+    padding: 2rem;
+    background-color: rgba(244, 53, 158, 0.56);
+    margin: 2rem;
+    border-radius: 20px;
+    border-style: dotted;
+
+    p {
+        text-align: justify;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
+.card_rosa:hover {
+    background-color: rgba(172, 34, 232, 0.535);
+}
+.quadroFoto{
+    background-color: white;
+    border-radius: 20px;
+    border: dotted;
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+}
 .pai_coluna_fixa {
     display: flex;
     flex-direction: column;
@@ -87,8 +122,8 @@ body {
 .pai_responsiva {
     margin: 1rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: baseline;
+    align-items: baseline;
     flex-direction: row;
     flex-wrap: wrap;
 }
