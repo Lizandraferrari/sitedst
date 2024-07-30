@@ -1,6 +1,6 @@
 import 'bootstrap/js/dist/dropdown';
+import 'bootstrap/js/dist/collapse';
 import logo from'../img/png.png';
-
 
 export default function Nav() {
   return (

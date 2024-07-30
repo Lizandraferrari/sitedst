@@ -1,7 +1,11 @@
 body {
     background: url('../img/background_psicodelico.gif');
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Comic Sans MS",  sans-serif;
 }
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: url("comic-sans-ms/comici.ttf");
+  }
 
 .nav_estilo {
     background-color: rgb(250, 255, 227);
@@ -9,10 +13,38 @@ body {
 }
 
 .footer_estilo{
-    background-color: rgb(255, 0, 225);
+    background-color: rgb(87, 1, 121);
     border-top: dotted;
-    align-items: center;
     padding: 3%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    i{
+        margin:1rem;
+        color: rgb(219, 136, 254);
+    }
+    i:hover{
+        color:  white
+    }
+    p{
+        color:  rgb(255, 255, 255);
+
+    }
+}
+.footer_margem{
+    background-color: rgb(255, 255, 255);
+    border-top: dotted;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+    i{
+        color:rgb(87, 1, 121) ;
+    }
+    i:hover{
+        color:  rgb(173, 34, 232);
+    }
 }
 
 .card_roxo {
@@ -21,9 +53,9 @@ body {
     justify-content: center;
     align-items: center;
 
-    padding: 3%;
+    padding: 2rem;
     background-color: rgba(172, 34, 232, 0.535);
-    margin: 3%;
+    margin: 2rem;
     border-radius: 20px;
     border-style: dotted;
 
@@ -48,13 +80,12 @@ body {
 }
 
 .filho_carrossel {
-    margin: 0 auto;
     width: 70%;
-    margin: 3%
+    margin: 1rem
 }
 
 .pai_responsiva {
-    margin: 3%;
+    margin: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,13 +114,16 @@ body {
 @media only screen and (max-width: 400px) {
     .pai_responsiva {
         flex-direction: column;
-        margin: 1%
     }
     .card_foto_descricao{
         width: 90%;
         margin: 1%
     }
-    .card_roxo{
-        margin: 1%;
+    .filho_carrossel{
+        width: 100%;
     }
+    .card_roxo{
+        margin: 5%;
+    }
+
 }
