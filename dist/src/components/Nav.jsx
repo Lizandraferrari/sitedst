@@ -7,7 +7,7 @@ export default function Nav() {
     <nav class="navbar navbar-expand-lg nav_estilo">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
-          <img src={logo} width="10%" /></a>
+          <img class = "navLogo" src={logo} /></a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -31,7 +31,7 @@ export default function Nav() {
             </li>
 
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Os integrantes
               </a>
               <ul class="dropdown-menu">
@@ -44,6 +44,8 @@ export default function Nav() {
                 <li><a class="dropdown-item" href="#">Lizandra</a></li>
                 <li><hr class="dropdown-divider" /></li>
                 <li><a class="dropdown-item" href="#">Sopa (ex. Integrante)</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Todos integrantes</a></li>
               </ul>
             </li>
           </ul>

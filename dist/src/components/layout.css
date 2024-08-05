@@ -101,6 +101,7 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    width: 100%;
     img{
         max-width: 100%;
         max-height: 100%;
@@ -115,17 +116,21 @@ body {
 }
 
 .filho_carrossel {
-    width: 70%;
-    margin: 1rem
+    width: 100%;
+    margin: 1rem;
+    img{
+        width: 100%;
+        display: block;
+    }
 }
 
 .pai_responsiva {
     margin: 1rem;
     display: flex;
-    justify-content: baseline;
-    align-items: baseline;
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+     flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .card_foto_descricao{
@@ -141,6 +146,11 @@ body {
         border-radius: 25px;
     }
 }
+.navLogo{
+    width:10%;
+
+}
+
 
 .card_foto_descricao:hover{
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
@@ -149,6 +159,7 @@ body {
 @media only screen and (max-width: 400px) {
     .pai_responsiva {
         flex-direction: column;
+        flex-wrap: wrap;
     }
     .card_foto_descricao{
         width: 90%;
@@ -156,9 +167,10 @@ body {
     }
     .filho_carrossel{
         width: 100%;
+        img{
+            width: 100%;
+        }
     }
-    .card_roxo{
-        margin: 5%;
-    }
+
 
 }
