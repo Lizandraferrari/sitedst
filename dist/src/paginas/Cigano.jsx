@@ -3,7 +3,7 @@ import Cabecalho from '../components/Cabecalho'
 import foto1 from "../img/ciganovisky.png"
 import foto2 from "../img/breja.png"
 
-const nome_membro = "Diogo Cigano Rogério"
+const nome_membro = "Diogo Cigano Rogério 🎸"
 const instaLink = "https://www.instagram.com/hegemoniakink/"
 const instaUser= "@hegemoniakink"
 const bio1 = "Nascido em 22/10/1982 na cidade de Santana no Amapá, cresceu em um ambiente fortemente influenciado por bandas como Calcinha Preta, Aviões do Forró, Bonde do Maluco, etc. Aos 14 anos, teve sua primeira guitarra e, devido às suas grandes habilidades com o brega e forró, entrou como músico nas maiores bandas presentes no cenário da época. Porém, por conta da sua pouca idade, tocava escondido atrás dos palcos enquanto um dublê encenava sua performance durante os shows."
@@ -14,7 +14,7 @@ export default function Cigano(){
         <>
         <Cabecalho titulo={nome_membro}></Cabecalho>
         <Biografia
-        bio1={bio1} bio2={bio2} foto1={foto1} foto2={foto2} instaLink1={instaLink} instaLink2={instaLink} instaUser1 = {instaUser} instaUser2={instaUser}
+        bio1={bio1} bio2={bio2} foto1={foto1} foto2={foto2} instaLink1={instaLink} instaLink2={instaLink} instaUser1 = {instaUser} instaUser2={instaUser} tituloFoto={"Foto por:"}
         ></Biografia>
         </>
     )

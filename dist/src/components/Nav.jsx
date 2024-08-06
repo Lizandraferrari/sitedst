@@ -23,7 +23,7 @@ export default function Nav() {
             </li>
            
             <li class="nav-item">
-              <a class="nav-link">Streaming</a>
+              <a class="nav-link" href = "/discografia">Discografia</a>
             </li>
 
             <li class="nav-item">
