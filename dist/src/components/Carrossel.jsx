@@ -6,7 +6,7 @@ import foto3 from '../img/diabodema.jpeg'
 
 export default function Carrossel() {
 	return (
-		<div class="filho_carrossel">
+		<div className="filho_carrossel">
 			<Carousel>
 				<Carousel.Item interval={2600}>
 					<img src={foto1}

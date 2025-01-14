@@ -91,6 +91,7 @@ body {
     background-color: rgba(172, 34, 232, 0.535);
 }
 .quadroFoto{
+
     background-color: white;
     border-radius: 20px;
     border: dotted;
@@ -101,9 +102,9 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-
     overflow: hidden;
     width: 100%;
+    flex: 1 1 calc(33.333% - 16px);
     img{
         max-width: 100%;
         max-height: 100%;
@@ -133,6 +134,16 @@ body {
     align-items:center;
      flex-direction: row;
     flex-wrap: nowrap;
+    max-width: 100%;
+}
+.quebra_responsiva {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+     flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
 }
 
 .card_foto_descricao{
@@ -162,6 +173,9 @@ body {
     .pai_responsiva {
         flex-direction: column;
         flex-wrap: wrap;
+    }
+    .quebra_responsiva{
+        flex-direction: column;
     }
     .card_foto_descricao{
         width: 90%;

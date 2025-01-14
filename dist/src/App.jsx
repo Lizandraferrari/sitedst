@@ -1,20 +1,10 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./paginas/Home";
-import FaClube from "./paginas/FaClube";
-import Cigano from "./paginas/Cigano";
-import Discografia from "./paginas/Discografia";
+
+import Rotas from "./rotas";
 
 export default function App () {
     return (
         <>
-            <BrowserRouter>
-                <Routes>
-                    <Route path ="/" element = {< Home /> }></Route>
-                    <Route path = "/discografia" element = {<Discografia />} > </Route>
-                    <Route path ="/faclube" element = {< FaClube /> }></Route>
-                    <Route path = "/integrantes/cigano" element = {<Cigano />} ></Route>
-                </Routes>
-            </BrowserRouter>
+            <Rotas/>
         </>
     )
 }
