@@ -1,10 +1,10 @@
 import Cabecalho from "../components/Cabecalho";
 import FotoInsta from "../components/FotoInsta";
-import raimc from "../img/raimc.jpg";
-import marginal from "../img/marginal.jpg";
-import demo from "../img/demo.jpg";
-import sucessos from "../img/sucessos.jpg";
-import fita from "../img/fita.jpg";
+import raimc from "/img/raimc.jpg";
+import marginal from "/img/marginal.jpg";
+import demo from "/img/demo.jpg";
+import sucessos from "/img/sucessos.jpg";
+import fita from "/img/fita.jpg";
 const linkRaimc = "https://dstnoisecore.bandcamp.com/track/r-a-i-m-c";
 const linkCoronga =
   "https://dstnoisecore.bandcamp.com/album/demo-coronga-v-rus";

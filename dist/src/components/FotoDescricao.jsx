@@ -1,13 +1,12 @@
-import jason from "../img/fas.json"
-import teste from "../img/carteirinhas/66600 Carteirinha fã clube ANDRE FIOVARANTE.png"
-export default function FotoDescricao (  ) {
+
+export default function FotoDescricao ({ foto , nome }) {
     return (
         <div class = "card_foto_descricao">
             <div class = "row">
-            <img src={teste}></img>
+            <img src={foto}></img>
             </div>
             <div class = "row">
-            <h4>{ jason[0].nome }</h4>
+            <h4>{ nome }</h4>
             </div>
         </div>
     )

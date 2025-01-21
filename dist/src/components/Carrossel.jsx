@@ -1,8 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
-import foto1 from '../img/jadema.jpeg'
-import foto2 from '../img/guitarra.jpg'
-import foto3 from '../img/diabodema.jpeg'
-import ElementoCarrossel from './ElementoCarrossel';
+import foto1 from '/img/jadema.jpeg'
+import foto3 from '/img/diabodema.jpeg'
 
 
 export default function Carrossel() {
