@@ -13,12 +13,16 @@ export default function Home() {
     <>
       <Cabecalho titulo={"D.S.T Noise"}></Cabecalho>
       <div className="pai_responsiva">
+        <div className="">
         <Card
           card_conteudo={release}
           card_titulo={titulo_paragrafo}
           card_cor={"card_roxo"}
         />
+        </div>
+        <div className="">
         <Carrossel></Carrossel>
+        </div>
       </div>
     </>
   );

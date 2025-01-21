@@ -3,6 +3,16 @@ body {
     font-family: "Comic Sans MS",  sans-serif;
 }
 
+.layout{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.preenchimento{
+    flex-grow: 1;
+}
+
 .nav_estilo {
     background-color: rgb(250, 255, 227);
     border-bottom: dotted;
@@ -118,12 +128,17 @@ body {
     align-items: center;
 }
 
-.filho_carrossel {
-    width: 100%;
-    margin: 1rem;
+.carrossel{
+    display: block; 
+    width: 100vh;
+    height: 100%;
+    padding: 1rem;
+    border-radius: 3%;
     img{
-        width: 100%;
+        border-radius: 3%; /*duplicado para evitar bugs de transição, onde fica quadrado enquanto*/
+        border: dotted;
         display: block;
+        width: 100%;
     }
 }
 
@@ -169,10 +184,11 @@ body {
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
     .pai_responsiva {
         flex-direction: column;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        
     }
     .quebra_responsiva{
         flex-direction: column;

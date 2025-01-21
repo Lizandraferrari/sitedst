@@ -4,9 +4,9 @@ import Footer from "./Footer";
 
 export default function Layout(){
     return (
-        <div className="">
+        <div className=" layout ">
             <Nav></Nav>
-            <main className="">
+            <main className="preenchimento">
                 <Outlet></Outlet>
             </main>
             <Footer></Footer>
