@@ -5,6 +5,7 @@ import Discografia from "./paginas/Discografia"
 import FaClube from "./paginas/FaClube"
 import Layout from "./components/estrutura/Layout";
 import EmBreve from "./paginas/EmBreve";
+import Shows from "./paginas/Shows";
 
 export default function Rotas () {
     const router = createBrowserRouter([
@@ -27,6 +28,10 @@ export default function Rotas () {
                     path: "/embreve" , element: <EmBreve />
                 },
 
+                {
+                    path: "/shows" , element: <Shows />
+                },
+                
                 {
                     path: "/integrantes/cigano" , element: <Cigano /> // fazer a /integrantes e ajeitar para receber uma variavel do nome
                 }

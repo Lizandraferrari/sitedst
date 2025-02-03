@@ -125,6 +125,31 @@ body {
         border-radius: 20px;
     }
 }
+.flyer{
+    background-color: rgba(244, 53, 158, 0.56);
+    border-radius: 20px;
+    border: dotted;
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    width: 25%;
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        border-color: black;
+        border: black;
+        border-style: dotted;
+    }
+}
+.flyer:hover{
+    background-color: rgba(172, 34, 232, 0.535);
+}
 .quadroFoto{
     background-color: rgb(255, 255, 227);
     border-radius: 20px;
@@ -143,8 +168,8 @@ body {
         height: 100%;
         border-radius: 20px;
     }
-    
 }
+
 .pai_coluna_fixa {
     display: flex;
     flex-direction: column;
@@ -179,7 +204,10 @@ body {
 .navLogo{
     width:10%;
 }
-
+.flyer{
+    margin: 1rem;
+    width: 25%;
+}
 .card_foto_descricao:hover{
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));

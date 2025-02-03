@@ -1,0 +1,142 @@
+[
+    {
+        "id": 0,
+        "imagem": "/img/flyer/2024/24-01-20 vidraca4.jpg",
+        "evento": "Vidraça 4",
+        "bandas": "",
+        "data": "2024-01-20"
+    },
+    {
+        "id": 1,
+        "imagem": "/img/flyer/2024/24-02-11 disisto1.jpg",
+        "evento": "パンク 祭り",
+        "bandas": ["Disisto" , "Lepra" , "Malditos Jovens do Reggae"],
+        "data": "2024-02-11"
+    },
+    {
+        "id": 2,
+        "imagem": "/img/flyer/2024/24-03-08 bregacremos1.jpg",
+        "evento": "Isso é normar",
+        "bandas": ["Insônia" , "Xixi com sangue" , "Nigéria Futebol Clube"],
+        "data": "2024-03-08"
+    },
+    {
+        "id": 3,
+        "imagem": "/img/flyer/2024/24-03-09 bregacremos2.jpg",
+        "evento": "Necrönoisë Fest",
+        "bandas": ["Sad Tortoise" , "Obscuurus HarshNoise" , "Greve" , "Krocödil Doomdee"],
+        "data": "2024-03-09"
+    },
+    {
+        "id": 4,
+        "imagem": "/img/flyer/2024/24-03-10 bregacremos3.jpg",
+        "evento": "Monkey vs monkey",
+        "bandas": ["Chupão telepático e os vampiros de Curitiba"],
+        "data": "2024-03-10"
+    },
+    {
+        "id": 5,
+        "imagem": "/img/flyer/2024/24-03-15 bregacremos4.jpg",
+        "evento": "Rock Doido 2",
+        "bandas": ["Berro Mote" , "Poluição Sonora Gratuita" , "Helkan"],
+        "data": "2024-03-15"
+    },
+    {
+        "id": 6,
+        "imagem": "/img/flyer/2024/24-03-16 bregacremos5.jpg",
+        "evento": "Grindcore Universitário II",
+        "bandas": ["Existência com Gosto de Nada" , "Mijo de Gato" , "Militia" , "Subser" , "Void It"],
+        "data": "2024-03-16"
+    },
+    {
+        "id": 7,
+        "imagem": "/img/flyer/2024/24-03-29 laminia.jpg",
+        "evento": "",
+        "bandas": ["Inraza" , "Elaine Campos + Tunnel" , "Ariel Teske" , "DJ Blua Discordia"],
+        "data": "2024-03-29"
+    },
+    {
+        "id": 8,
+        "imagem": "/img/flyer/2024/24-03-30 viralata.jpg",
+        "evento": "Festival Vira Lata",
+        "bandas": ["Malditos Jovens do Reggae" , "Giallos" , "Radio Diaspora" , "Cerne" , "Voyuer"],
+        "data": "2024-03-30"
+    },
+    {
+        "id": 9,
+        "imagem": "/img/flyer/2024/24-04-26 74club.jpg",
+        "evento": "",
+        "bandas": ["Lasso" , "Urutu"],
+        "data": "2024-04-26"
+    },
+    {
+        "id": 10,
+        "imagem": "/img/flyer/2024/24-04-27 octopus.jpg",
+        "evento": "Octopus Reunion",
+        "bandas": ["Octopus Head" , "Idade da Pedra"],
+        "data": "2024-04-27"
+    },
+    {
+        "id": 11,
+        "imagem": "/img/flyer/2024/24-05-11 festivalfest.jpg",
+        "evento": "Festival Fest",
+        "bandas": ["Fao Troffea" , "Rebeldia Incontida" , "Vítimas do Crack"],
+        "data": "2024-05-11"
+    },
+    {
+        "id": 12,
+        "imagem": "/img/flyer/2024/24-06-15 taciturno.jpg",
+        "evento": "Coletivo Taciturno",
+        "bandas": ["Dente Canino" , "G. Paim" ,"Ghast Cloe"],
+        "data": "2024-06-15"
+    },
+    {
+        "id": 13,
+        "imagem": "/img/flyer/2024/24-07-12 bombeirinho fast.jpg",
+        "evento": "Bombeirinho Fast",
+        "bandas": ["Chupão telepático e os vampiros de Curitiba" , "Insônia" , "Attack o Hetero"],
+        "data": "2024-07-12"
+    },
+    {
+        "id": 14,
+        "imagem": "/img/flyer/2024/24-08-03 travanoia.jpg",
+        "evento": "Trava Nóia fest",
+        "bandas": ["Sangria Violenta" , "Pele Fria" , "Malfazer"],
+        "data": "2024-08-03"
+    },
+    {
+        "id": 15,
+        "imagem": "/img/flyer/2024/24-08-24 inyourarms.jpg",
+        "evento": "In Your Arms...",
+        "bandas": ["Burrice Precoce" , "Corpos Sem Órgãos"],
+        "data": "2024-08-24"
+    },
+    {
+        "id": 16,
+        "imagem": "/img/flyer/2024/24-09-07 gurogevefun.jpg",
+        "evento": "Coração Podre ",
+        "bandas": ["Guro" , "Greve"],
+        "data": "2024-09-07"
+    },
+    {
+        "id": 17,
+        "imagem": "/img/flyer/2024/24-10-18 festajovem.png",
+        "evento": "Festa Jovem",
+        "bandas": ["Burrice Precoce" , "Cü cöm Acëntö" , "Vítimas do Crack"],
+        "data": "2024-10-18"
+    },
+    {
+        "id": 18,
+        "imagem": "/img/flyer/2024/24-11-07 fffront.jpg",
+        "evento": "Asfixia Mental Tour",
+        "bandas": ["Asfixia Mental" , "Trachoma"],
+        "data": "2024-11-07"
+    },
+    {
+        "id": 19,
+        "imagem": "/img/flyer/2024/24-12-28 carneiro.jpg",
+        "evento": "Carneiro Noise Terror VII",
+        "bandas": ["Alma Sebosa" , "Rebeldia Incontida" , "Estorvo Sonoro" , "Coyote Bad Trip" , "Voronoy" , "Infratores" , "No Prejudice"],
+        "data": "2024-12-28"
+    }
+]

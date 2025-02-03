@@ -19,7 +19,7 @@ export default function Nav() {
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="/embreve">Histórico de Shows</a>
+              <a className="nav-link" href="/shows">Histórico de Shows</a>
             </li>
            
             <li className="nav-item">
