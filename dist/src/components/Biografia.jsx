@@ -1,5 +1,5 @@
 import Card from "./Card";
-import FotoInsta from "./FotoInsta";
+import FotoLink from "./FotoLink";
 
 export default function Biografia({
   foto1,
@@ -15,13 +15,13 @@ export default function Biografia({
 }) {
   return (
     <>
-      <div class="pai_responsiva">
-        <FotoInsta
+      <div className="pai_responsiva">
+        <FotoLink
           foto={foto1}
-          instaUser={instaUser1}
-          instaLink={instaLink1}
+          txtlink1={instaUser1}
+          link1={instaLink1}
           tituloFoto={tituloFoto}
-        ></FotoInsta>
+        ></FotoLink>
         <Card
           card_titulo={nome_membro}
           card_conteudo={bio1}
@@ -29,15 +29,15 @@ export default function Biografia({
         ></Card>
       </div>
 
-      <div class="pai_responsiva">
+      <div className="pai_responsiva">
         <Card card_conteudo={bio2} card_cor={"card_rosa"}></Card>
-        <FotoInsta
+        <FotoLink
           foto={foto2}
-          instaUser={instaUser2}
-          instaLink={instaLink2}
+          txtlink1={instaUser2}
+          link1={instaLink2}
           tituloFoto={tituloFoto}
-        ></FotoInsta>
+        ></FotoLink>
       </div>
     </>
-  )
+  );
 }

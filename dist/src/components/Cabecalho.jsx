@@ -1,9 +1,7 @@
-
-export default function Cabecalho ( {titulo}){
-    return (
-        <>        
-    <title>{titulo}</title>
-</>
-
-    )
+export default function Cabecalho({ titulo }) {
+  return (
+    <>
+      <title>{titulo}</title>
+    </>
+  );
 }

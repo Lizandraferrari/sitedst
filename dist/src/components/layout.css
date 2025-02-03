@@ -1,236 +1,226 @@
 body {
-    background: url('../img/background_psicodelico.gif');
-    font-family: "Comic Sans MS",  sans-serif;
+  background: url("../img/background_psicodelico.gif");
+  font-family: "Comic Sans MS", sans-serif;
 }
 
-.layout{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    overflow: hidden;
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
 }
 
-.preenchimento{
-    flex-grow: 1;
+.preenchimento {
+  flex-grow: 1;
 }
 
 .nav_estilo {
-    background-color: rgb(255, 255, 227);
-    border-bottom: dotted;
+  background-color: rgb(255, 255, 227);
+  border-bottom: dotted;
 }
 
-.footer_estilo{
-    background-color: rgb(87, 1, 121);
-    border-top: dotted;
-    padding: 3%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    i{
-        margin:1rem;
-        color: rgb(219, 136, 254);
-    }
-    i:hover{
-        color:  white
-    }
-    p{
-        color:  rgb(255, 255, 255);
-
-    }
+.footer_estilo {
+  background-color: rgb(87, 1, 121);
+  border-top: dotted;
+  padding: 3%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  i {
+    margin: 1rem;
+    color: rgb(219, 136, 254);
+  }
+  i:hover {
+    color: white;
+  }
+  p {
+    color: rgb(255, 255, 255);
+  }
 }
-.footer_margem{
-    background-color: rgb(255, 255, 255);
-    border-top: dotted;
-    padding: 1em;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: small;
-    i{
-        color:rgb(87, 1, 121) ;
-    }
-    i:hover{
-        color:  rgb(173, 34, 232);
-    }
+
+.footer_margem {
+  background-color: rgb(255, 255, 255);
+  border-top: dotted;
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: small;
+  i {
+    color: rgb(87, 1, 121);
+  }
+  i:hover {
+    color: rgb(173, 34, 232);
+  }
 }
 
 .card_roxo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    padding: 2rem;
-    background-color: rgba(172, 34, 232, 0.535);
-    margin: 2rem;
-    border-radius: 20px;
-    border-style: dotted;
+  padding: 2rem;
+  background-color: rgba(172, 34, 232, 0.535);
+  margin: 2rem;
+  border-radius: 20px;
+  border-style: dotted;
 
-    p {
-        text-align: justify;
-    }
+  p {
+    text-align: justify;
+  }
 
-    h2 {
-        text-align: center;
-    }
+  h2 {
+    text-align: center;
+  }
 }
-
 .card_roxo:hover {
-    background-color: rgba(244, 53, 158, 0.56);
+  background-color: rgba(244, 53, 158, 0.56);
 }
 .card_rosa {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    padding: 2rem;
-    background-color: rgba(244, 53, 158, 0.56);
-    margin: 2rem;
-    border-radius: 20px;
-    border-style: dotted;
+  padding: 2rem;
+  background-color: rgba(244, 53, 158, 0.56);
+  margin: 2rem;
+  border-radius: 20px;
+  border-style: dotted;
 
-    p {
-        text-align: justify;
-    }
+  p {
+    text-align: justify;
+  }
 
-    h2 {
-        text-align: center;
-    }
+  h2 {
+    text-align: center;
+  }
 }
 .card_rosa:hover {
-    background-color: rgba(172, 34, 232, 0.535);
+  background-color: rgba(172, 34, 232, 0.535);
 }
 
-.agrupa_itens{
-    margin: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 100vw;
+.agrupa_itens {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100vw;
 }
-.card_foto_descricao{
-    width: 25%;
-    margin: 3%;
+.card_foto_descricao {
+  width: 25%;
+  margin: 3%;
+  border-radius: 20px;
+  border-style: dotted;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  img {
     border-radius: 20px;
-    border-style: dotted;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    img{
-        border-radius: 20px;
-    }
+  }
 }
-.flyer{
-    background-color: rgba(244, 53, 158, 0.56);
-    border-radius: 20px;
-    border: dotted;
-    padding: 2rem;
-    margin: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    overflow: hidden;
-    width: 25%;
-    img{
-        width: 100%;
-        height: 100%;
-        border-radius: 20px;
-        border-color: black;
-        border: black;
-        border-style: dotted;
-    }
-}
-.flyer:hover{
-    background-color: rgba(172, 34, 232, 0.535);
-}
-.quadroFoto{
-    background-color: rgb(255, 255, 227);
-    border-radius: 20px;
-    border: dotted;
-    padding: 2rem;
-    margin: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    overflow: hidden;
-    width: 25%;
-    img{
-        width: 100%;
-        height: 100%;
-        border-radius: 20px;
-    }
+.card_foto_descricao:hover {
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
 }
 
-.pai_coluna_fixa {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.carrossel{
-    display: block; 
-    width: 100vh;
+.flyer {
+  background-color: rgba(244, 53, 158, 0.56);
+  border-radius: 20px;
+  border: dotted;
+  padding: 2rem;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  width: 25%;
+  img {
+    width: 100%;
     height: 100%;
-    padding: 1rem;
-    border-radius: 3%;
-    img{
-        border-radius: 3%; /*duplicado para evitar bugs de transição, onde fica quadrado enquanto*/
-        border: dotted;
-        display: block;
-        width: 100%;
-    }
+    border-radius: 20px;
+    border-color: black;
+    border: black;
+    border-style: dotted;
+  }
+}
+.flyer:hover {
+  background-color: rgba(172, 34, 232, 0.535);
+}
+
+.quadroFoto {
+  background-color: rgb(255, 255, 227);
+  border-radius: 20px;
+  border: dotted;
+  padding: 2rem;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  width: 25%;
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+}
+
+.carrossel {
+  display: block;
+  width: 100vh;
+  height: 100%;
+  padding: 1rem;
+  border-radius: 3%;
+  img {
+    border-radius: 3%; /*duplicado para evitar bugs de transição, onde fica quadrado enquanto*/
+    border: dotted;
+    display: block;
+    width: 100%;
+  }
 }
 
 .pai_responsiva {
-    margin: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    max-width: 100%;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  max-width: 100%;
 }
 
-.navLogo{
-    width:10%;
+.flyer {
+  margin: 1rem;
+  width: 25%;
 }
-.flyer{
-    margin: 1rem;
-    width: 25%;
-}
-.card_foto_descricao:hover{
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-}
+
 @media only screen and (max-width: 500px) {
-    .pai_responsiva {
-        flex-direction: column;
-        flex-wrap: nowrap;
+  .pai_responsiva {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .card_foto_descricao {
+    width: 90%;
+    margin: 1%;
+    margin-top: 3rem;
+  }
+  .filho_carrossel {
+    width: 100%;
+    img {
+      width: 100%;
     }
-    .card_foto_descricao{
-        width: 90%;
-        margin: 1%;
-        margin-top: 3rem;
-    }
-    .filho_carrossel{
-        width: 100%;
-        img{
-            width: 100%;
-        }
-    }
-    .quadroFoto{
-        margin: 0%;
-    }
-
-
+  }
+  .quadroFoto {
+    margin: 0%;
+  }
 }
