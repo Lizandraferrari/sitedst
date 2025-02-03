@@ -15,11 +15,11 @@ export default function Nav() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link" href="#">Nossas Influências</a>
+              <a className="nav-link" href="/embreve">Nossas Influências</a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">Histórico de Shows</a>
+              <a className="nav-link" href="/embreve">Histórico de Shows</a>
             </li>
            
             <li className="nav-item">
@@ -35,17 +35,17 @@ export default function Nav() {
                 Os integrantes
               </a>
               <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="/integrantes">Edgard Cirilo</a></li>
+                <li><a className="dropdown-item" href="/embreve">Edgard Cirilo</a></li>
                 <li><hr className="dropdown-divider" /></li>
-                <li><a className="dropdown-item" href="/integrantes">May Tsé Tung</a></li>
+                <li><a className="dropdown-item" href="/embreve">May Tsé Tung</a></li>
                 <li><hr className="dropdown-divider" /></li>
                 <li><a className="dropdown-item" href="/integrantes/cigano">Diogo Rogério Cigano</a></li>
                 <li><hr className="dropdown-divider" /></li>
-                <li><a className="dropdown-item" href="/integrantes">Lizandra</a></li>
+                <li><a className="dropdown-item" href="/embreve">Lizandra</a></li>
                 <li><hr className="dropdown-divider" /></li>
-                <li><a className="dropdown-item" href="/integrantes">Sopa (ex. Integrante)</a></li>
+                <li><a className="dropdown-item" href="/embreve">Sopa (ex. Integrante)</a></li>
                 <li><hr className="dropdown-divider" /></li>
-                <li><a className="dropdown-item" href="/integrantes">Todos integrantes</a></li>
+                <li><a className="dropdown-item" href="/embreve">Todos integrantes</a></li>
               </ul>
             </li>
           </ul>

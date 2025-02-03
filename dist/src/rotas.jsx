@@ -4,6 +4,7 @@ import Cigano from "./paginas/Cigano";
 import Discografia from "./paginas/Discografia"
 import FaClube from "./paginas/FaClube"
 import Layout from "./components/estrutura/Layout";
+import EmBreve from "./paginas/EmBreve";
 
 export default function Rotas () {
     const router = createBrowserRouter([
@@ -20,6 +21,10 @@ export default function Rotas () {
 
                 {
                     path: "/faclube" , element: < FaClube />
+                },
+
+                {
+                    path: "/embreve" , element: <EmBreve />
                 },
 
                 {
