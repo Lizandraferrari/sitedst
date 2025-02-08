@@ -4,8 +4,8 @@ import foto1 from "/img/ciganovisky.png";
 import foto2 from "/img/breja.png";
 
 const nome_membro = "Diogo Cigano Rogério 🎸";
-const instaLink = "https://www.instagram.com/hegemoniakink/";
-const instaUser = "@hegemoniakink";
+const instaLink = "https://www.instagram.com/olhossdevidro/";
+const instaUser = "@olhossdevidro";
 const bio1 =
   "Nascido em 22/10/1982 na cidade de Santana no Amapá, cresceu em um ambiente fortemente influenciado por bandas como Calcinha Preta, Aviões do Forró, Bonde do Maluco, etc. Aos 14 anos, teve sua primeira guitarra e, devido às suas grandes habilidades com o brega e forró, entrou como músico nas maiores bandas presentes no cenário da época. Porém, por conta da sua pouca idade, tocava escondido atrás dos palcos enquanto um dublê encenava sua performance durante os shows.";
 const bio2 =

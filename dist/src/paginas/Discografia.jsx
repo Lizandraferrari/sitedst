@@ -13,9 +13,9 @@ export default function Discografia() {
             foto={info.foto}
             tituloFoto={info.titulo}
             txtlink1={info.plataforma1}
-            link1={info.link2}
+            link1={info.link1}
             txtlink2={info.plataforma2}
-            link2={info.link3}
+            link2={info.link2}
             txtlink3={info.plataforma3}
             link3={info.link3}
           ></FotoLink>

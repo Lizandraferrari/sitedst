@@ -13,16 +13,17 @@ export default function Biografia({
   nome_membro,
   tituloFoto,
 }) {
+  document.documentElement.style.setProperty('--quadroFoto', '75%');
   return (
     <>
       <div className="pai_responsiva">
-        <FotoLink
+        <FotoLink 
           foto={foto1}
           txtlink1={instaUser1}
           link1={instaLink1}
           tituloFoto={tituloFoto}
         ></FotoLink>
-        <Card
+        <Card 
           card_titulo={nome_membro}
           card_conteudo={bio1}
           card_cor={"card_roxo"}

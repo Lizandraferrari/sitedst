@@ -66,7 +66,7 @@ export default function Nav() {
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/embreve">
+                  <a className="dropdown-item" href="/integrantes/maylson">
                     May Tsé Tung
                   </a>
                 </li>
