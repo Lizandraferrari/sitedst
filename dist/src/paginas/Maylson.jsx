@@ -7,7 +7,7 @@ export default function Maylson (){
     const bio1 = `Nascido no povoado de Morro redondo Oeiras-PI, descobriu sua habilidades com os gritos ainda mininote no oficio de vaqueiro gritando pra boiada "eeee boi", e logo entendeu que isso valia também pra lidar com outro tipo de corno.
 Junto de seu teclado, Maylson das Teclas fez sucesso nos povoados do interior do Piauí com seu brega gritado que fazia até defunto levanta pra ir tomar uma. `
     const bio2 = `Porém, em 2019 acabou se envolvendo num rebuliço em um forró risca faca, acabando por passar a pexeira em uns 4 cabras e ainda saiu sem levar nenhum arranhão por ter o corpo fechado. Para evitar a pena do xilindró resolveu sair corrido das terras piauienses e buscar novos áres em Santo André-SP, onde conheceu Cigano das Cordas em uma bodega na qual o amapaense viu sua cantoria fazer com que dois homens fossem pro pau por causa de uma mulher.
-A partir de então, juntamente a Liz, eles fundaram a banda de breganoise DST.`
+A partir de então, juntamente a Liz, eles fundaram a banda de breganoise D.S.T Noise`
     const instaLink1 = "https://www.instagram.com/sprite.com.gelado/"
     const instaLink2 = "https://www.instagram.com/mazzei.br/"
     const instaUser1 = "@sprite.com.gelado"

@@ -6,6 +6,7 @@ import FaClube from "./paginas/FaClube";
 import Layout from "./components/estrutura/Layout";
 import EmBreve from "./paginas/EmBreve";
 import Shows from "./paginas/Shows";
+import Influencias from "./paginas/Influencias";
 import Maylson from "./paginas/Maylson";
 
 export default function Rotas() {
@@ -36,6 +37,11 @@ export default function Rotas() {
         {
           path: "/shows",
           element: <Shows />,
+        },
+
+        {
+          path: "/influencias",
+          element: <Influencias />,
         },
 
         {
