@@ -1,17 +1,7 @@
 import Card from "../components/Card";
 import Cabecalho from "../components/Cabecalho";
-
+import playlists from "../docsJson/recomendacoes.json"
 export default function Influencias() {
-  const playlists = [
-    {
-      pessoa: "Lizandra",
-      urlPlaylist:
-        "https://open.spotify.com/embed/playlist/3CD0hjfvLkwdQY59a79DWe?utm_source=generator",
-      recado1:
-        "Essa é uma playlist da batera, que também fez esse site lindo e repleto de poluição visual. Fiz uma escolha de uns sons que acho massa, e no geral só tem rock, mais e menos pauleira.",
-      recado2: "Recadinho: Escutem Giant Jellyfish melhor banda do mundo.",
-    },
-  ];
 
   return (
     <>
