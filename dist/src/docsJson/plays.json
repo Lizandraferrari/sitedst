@@ -1,60 +1,75 @@
 [
-    {
-      "foto": "/img/raimc.jpg",
-      "titulo": "Rápido e agressivo igual um militar cheirado (2019)",
-      "plataforma1": "Youtube",
-      "link1": "https://www.youtube.com/watch?v=wwpMPOJEozM",
-      "plataforma2": "BandCamp",
-      "link2": "https://dstnoisecore.bandcamp.com/track/r-a-i-m-c"
-    },
-    {
-      "foto": "/img/demo.jpg",
-      "titulo": "Coronga Vírus (2020)",
-      "plataforma1": "BandCamp",
-      "link1": "https://dstnoisecore.bandcamp.com/album/demo-coronga-v-rus"
-    },
-    {
-      "foto":  "/img/fita.jpg",
-      "titulo": "Quarentine days are hell (2020)",
-      "plataforma1": "Apenas Midia Física"
-    },
-    {
-      "foto": "/img/sucessos.jpg",
-      "titulo": "20 super sucessos (2020)",
-      "plataforma1": "Apenas Midia Física"
-    },
-    {
-      "foto":"/img/marginal.jpg",
-      "titulo": "Seja Marginal, Seja Her​ó​i (2021)",
-      "plataforma1": "BandCamp",
-      "link1": "https://dordistro.bandcamp.com/album/seja-marginal-seja-her-i"
-    },
-    {
-      "foto": "/img/protocolo anti reptiliano.jpg",
-      "titulo": "Protocolo Antirreptiliano (2022)",
-      "plataforma1": "Spotify",
-      "link1": "https://open.spotify.com/intl-pt/album/60npubwIkhDBKdrTuAm1j4",
-      "plataforma2": "BandCamp",
-      "link2": "https://dstnoisecore.bandcamp.com/album/protocolo-antirreptiliano",
-      "plataforma3": "Youtube",
-      "link3": "https://www.youtube.com/watch?v=83Nsgm-N2SY&list=OLAK5uy_nIeOBMadn4Pb0b1tonn9gbofPXJ3pXp1k&index=1"
-    },
-    {
-      "foto": "/img/presencavip.jpg",
-      "titulo": "Presença Vip no Bar do Baiano (2023)",
-      "plataforma1": "Spotify",
-      "link1": "https://open.spotify.com/intl-pt/album/2i0YYabAxE3yzXotQXmiUX",
-      "plataforma2": "BandCamp",
-      "link2": "https://dstnoisecore.bandcamp.com/album/presen-a-vip-no-bar-do-baiano-2",
-      "plataforma3": "Youtube",
-      "link3": "https://www.youtube.com/watch?v=7IgwM7Xn78w&list=OLAK5uy_kmCwqIHp8zaKM4-5JFQhaVJItrU3SL6XQ&index=1"
-    },
-    {
-      "foto": "/img/monkey.jpg",
-      "titulo": "Monkey vs Monkey - Split (2024)",
-      "plataforma1": "BandCamp",
-      "link1": "https://dstnoisecore.bandcamp.com/album/monkey-vs-monkey",
-      "plataforma2": "Youtube",
-      "link2": "https://www.youtube.com/watch?v=1R4Pt_FX1OU"
-    }
-  ]
+  {
+    "id": 0,
+    "foto": "/img/play/raimc.jpg",
+    "titulo": "Rápido e agressivo igual um militar cheirado (2019)",
+    "plataforma1": "Youtube",
+    "link1": "https://www.youtube.com/watch?v=wwpMPOJEozM",
+    "plataforma2": "BandCamp",
+    "link2": "https://dstnoisecore.bandcamp.com/track/r-a-i-m-c"
+  },
+  {
+    "id": 1,
+    "foto": "/img/play/demo.jpg",
+    "titulo": "Coronga Vírus (2020)",
+    "plataforma1": "BandCamp",
+    "link1": "https://dstnoisecore.bandcamp.com/album/demo-coronga-v-rus"
+  },
+  {
+    "id": 2,
+    "foto":  "/img/play/fita.jpg",
+    "titulo": "Quarentine days are hell (2020)",
+    "plataforma1": "Apenas Midia Física"
+  },
+  {
+    "id": 3,
+    "foto": "/img/play/sucessos.jpg",
+    "titulo": "20 super sucessos (2020)",
+    "plataforma1": "Apenas Midia Física"
+  },
+  {
+    "id": 4,
+    "foto":"/img/play/marginal.jpg",
+    "titulo": "Seja Marginal, Seja Her​ó​i (2021)",
+    "plataforma1": "BandCamp",
+    "link1": "https://dordistro.bandcamp.com/album/seja-marginal-seja-her-i"
+  },
+  {
+    "id": 5,
+    "foto": "/img/play/protocolo anti reptiliano.jpg",
+    "titulo": "Protocolo Antirreptiliano (2022)",
+    "plataforma1": "Spotify",
+    "link1": "https://open.spotify.com/intl-pt/album/60npubwIkhDBKdrTuAm1j4",
+    "plataforma2": "BandCamp",
+    "link2": "https://dstnoisecore.bandcamp.com/album/protocolo-antirreptiliano",
+    "plataforma3": "Youtube",
+    "link3": "https://www.youtube.com/watch?v=83Nsgm-N2SY&list=OLAK5uy_nIeOBMadn4Pb0b1tonn9gbofPXJ3pXp1k&index=1"
+  },
+  {
+    "id": 6,
+    "foto": "/img/play/elesmeabduziram.jpeg" ,
+    "titulo": "Elesmeabduziram Abravanel da Silva (2023)",
+    "plataforma1": "Youtube",
+    "link1":"https://www.youtube.com/watch?v=0mA7g6SIBBU"
+  },
+  {
+    "id": 7,
+    "foto": "/img/play/presencavip.jpg",
+    "titulo": "Presença Vip no Bar do Baiano (2023)",
+    "plataforma1": "Spotify",
+    "link1": "https://open.spotify.com/intl-pt/album/2i0YYabAxE3yzXotQXmiUX",
+    "plataforma2": "BandCamp",
+    "link2": "https://dstnoisecore.bandcamp.com/album/presen-a-vip-no-bar-do-baiano-2",
+    "plataforma3": "Youtube",
+    "link3": "https://www.youtube.com/watch?v=7IgwM7Xn78w&list=OLAK5uy_kmCwqIHp8zaKM4-5JFQhaVJItrU3SL6XQ&index=1"
+  },
+  {
+    "id": 8,
+    "foto": "/img/play/monkey.jpg",
+    "titulo": "Monkey vs Monkey - Split (2024)",
+    "plataforma1": "BandCamp",
+    "link1": "https://dstnoisecore.bandcamp.com/album/monkey-vs-monkey",
+    "plataforma2": "Youtube",
+    "link2": "https://www.youtube.com/watch?v=1R4Pt_FX1OU"
+  }
+]

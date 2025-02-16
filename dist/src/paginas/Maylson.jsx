@@ -1,7 +1,7 @@
 import Biografia from "../components/Biografia";
 import Cabecalho from "../components/Cabecalho";
-import foto1 from "/img/maylson1.jpeg"
-import foto2 from "/img/maylson2.jpg"
+import foto1 from "/img/integrantes/maylson/maylson1.jpeg"
+import foto2 from "/img/integrantes/maylson/maylson2.jpg"
 
 export default function Maylson (){
     const bio1 = `Nascido no povoado de Morro redondo Oeiras-PI, descobriu sua habilidades com os gritos ainda mininote no oficio de vaqueiro gritando pra boiada "eeee boi", e logo entendeu que isso valia também pra lidar com outro tipo de corno.

@@ -1,7 +1,7 @@
 import Biografia from "../components/Biografia";
 import Cabecalho from "../components/Cabecalho";
-import foto1 from "/img/ciganovisky.png";
-import foto2 from "/img/breja.png";
+import foto1 from "/img/integrantes/cigano/ciganovisky.png";
+import foto2 from "/img/integrantes/cigano/breja.png";
 
 const nome_membro = "Diogo Cigano Rogério 🎸";
 const instaLink = "https://www.instagram.com/olhossdevidro/";
