@@ -7,7 +7,7 @@ export default function Influencias() {
     <>
       <Cabecalho titulo={"Influências da D.S.T Noise 💣"} />
       {playlists.map((integrante) => (
-        <div className="pai_responsiva">
+        <div className="pai_responsiva" style={{marginTop:"4rem"}}>
           <div>
             {/* colocar uma dollz */}
             <h2 style={{ textAlign: "center" }}>
@@ -30,6 +30,7 @@ export default function Influencias() {
             ></iframe>
           </div>
         </div>
+
       ))}
     </>
   );

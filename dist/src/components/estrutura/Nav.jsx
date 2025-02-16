@@ -1,15 +1,11 @@
 import "bootstrap/js/dist/dropdown";
 import "bootstrap/js/dist/collapse";
-import logo from "/img/png.png";
+import logo from "/img/logopreta.png";
 
 export default function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg nav_estilo">
+    <nav className="navbar navbar-expand-lg navbar-expand-md nav_estilo">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/">
-          <img src={logo} style={{width: "10%"}}/>
-        </a>
-
         <button
           className="navbar-toggler"
           type="button"
@@ -106,6 +102,9 @@ export default function Nav() {
             </li>
           </ul>
         </div>
+        <a className="navbar-brand justify-content-end " href="/">
+          <img className=" " src={logo} style={{ width: "3.5rem" }} />
+        </a>
       </div>
     </nav>
   );
