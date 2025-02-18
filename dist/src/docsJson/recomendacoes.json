@@ -1,6 +1,7 @@
 [
     {
         "id": 0,
+        "section": "lizandra",
         "pessoa": "Lizandra",
         "urlPlaylist": "https://open.spotify.com/embed/playlist/3CD0hjfvLkwdQY59a79DWe?utm_source=generator",
         "recado1": "Essa é uma playlist da batera, que também fez esse site lindo e repleto de poluição visual. Fiz uma escolha de uns sons que acho massa, e no geral só tem rock, mais e menos pauleira.",
@@ -8,7 +9,8 @@
     },
     {
         "id": 1,
-        "pessoa": "Cigano",
+        "section": "cigano",
+        "pessoa": "Cigano Rogério",
         "urlPlaylist": "https://open.spotify.com/embed/playlist/0ZkXu6d46Qi1MlP49LM7xR?utm_source=generator",
         "recado1": "Uma pequena de demonstração de sofrencia e uns rock doido pq ngm é de ferro."
     }

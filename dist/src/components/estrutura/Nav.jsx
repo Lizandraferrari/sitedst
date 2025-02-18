@@ -62,7 +62,7 @@ export default function Nav() {
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/integrantes/maylson">
+                  <a className="dropdown-item" href="/integrantes#maylson">
                     May Tsé Tung
                   </a>
                 </li>
@@ -70,7 +70,7 @@ export default function Nav() {
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/integrantes/cigano">
+                  <a className="dropdown-item" href="/integrantes#cigano">
                     Diogo Rogério Cigano
                   </a>
                 </li>
@@ -88,14 +88,6 @@ export default function Nav() {
                 <li>
                   <a className="dropdown-item" href="/embreve">
                     Sopa (ex. Integrante)
-                  </a>
-                </li>
-                <li>
-                  <hr className="dropdown-divider" />
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/embreve">
-                    Todos integrantes
                   </a>
                 </li>
               </ul>

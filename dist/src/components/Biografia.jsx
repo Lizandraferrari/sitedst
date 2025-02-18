@@ -1,6 +1,5 @@
 import Card from "./Card";
 import FotoLink from "./FotoLink";
-
 export default function Biografia({
   foto1,
   foto2,
@@ -10,21 +9,23 @@ export default function Biografia({
   instaLink2,
   bio1,
   bio2,
-  nome_membro,
-  tituloFoto,
+  integrante,
+  idIntegrante,
 }) {
   document.documentElement.style.setProperty('--quadroFoto', '75%');
+
   return (
     <>
+    <section id={idIntegrante}>
+    <h1 style={{marginTop:"5rem" , textAlign:"center"}}>{integrante}</h1>
       <div className="pai_responsiva">
         <FotoLink 
           foto={foto1}
           txtlink1={instaUser1}
           link1={instaLink1}
-          tituloFoto={tituloFoto}
+          tituloFoto={"Foto por:"}
         ></FotoLink>
         <Card 
-          card_titulo={nome_membro}
           card_conteudo={bio1}
           card_cor={"card_roxo"}
         ></Card>
@@ -36,9 +37,18 @@ export default function Biografia({
           foto={foto2}
           txtlink1={instaUser2}
           link1={instaLink2}
-          tituloFoto={tituloFoto}
+          tituloFoto={"Foto por:"}
         ></FotoLink>
       </div>
+{/*
+      <div className="pai_responsiva">
+      <MiniFoto
+        nome={integrante}
+        caminho={idIntegrante}
+      ></MiniFoto>
+      </div>
+       */}
+      </section>
     </>
   );
 }

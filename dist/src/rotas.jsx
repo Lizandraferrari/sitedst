@@ -1,13 +1,12 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./paginas/Home";
-import Cigano from "./paginas/Cigano";
 import Discografia from "./paginas/Discografia";
 import FaClube from "./paginas/FaClube";
 import Layout from "./components/estrutura/Layout";
 import EmBreve from "./paginas/EmBreve";
 import Shows from "./paginas/Shows";
 import Influencias from "./paginas/Influencias";
-import Maylson from "./paginas/Maylson";
+import Integrantes from "./paginas/Integrantes";
 
 export default function Rotas() {
   const router = createBrowserRouter([
@@ -45,13 +44,8 @@ export default function Rotas() {
         },
 
         {
-          path: "/integrantes/cigano",
-          element: <Cigano />, // fazer a /integrantes e ajeitar para receber uma variavel do nome
-        },
-
-        {
-          path: "/integrantes/maylson",
-          element: <Maylson />,
+          path: "/integrantes",
+          element: <Integrantes  />, // fazer a /integrantes e ajeitar para receber uma variavel do nome
         }
       ],
     },
