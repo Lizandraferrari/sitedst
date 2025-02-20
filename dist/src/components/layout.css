@@ -19,10 +19,15 @@ body {
 }
 
 .nav_estilo {
-  background-color: rgb(255, 255, 227);
+  background-color: rgb(255, 255, 216);
   border-bottom: var(--borda);
 }
-
+.navLink:hover{
+  cursor: pointer;
+  zoom:1.1;
+  transition-duration: 100ms , 100ms;
+  color: black;
+}
 .footer_estilo {
   background-color: rgb(87, 1, 121);
   border-top: var(--borda);

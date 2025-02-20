@@ -1,8 +1,16 @@
 import "bootstrap/js/dist/dropdown";
 import "bootstrap/js/dist/collapse";
 import logo from "/img/logopreta.png";
+import { useNavigate } from "react-router-dom";
 
 export default function Nav() {
+  const navigate = useNavigate()
+  let rota
+  const integrante = (pessoa) => {
+    rota = "/integrantes#" + pessoa
+    navigate(rota)
+  }
+  
   return (
     <nav className="navbar navbar-expand-lg navbar-expand-md nav_estilo">
       <div className="container-fluid">
@@ -54,7 +62,7 @@ export default function Nav() {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="/embreve">
+                  <a className="dropdown-item navLink" href="/embreve">
                     Edgard Cirilo
                   </a>
                 </li>
@@ -62,7 +70,7 @@ export default function Nav() {
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/integrantes#maylson">
+                  <a className="dropdown-item navLink" onClick={() => integrante("maylson")}>
                     May Tsé Tung
                   </a>
                 </li>
@@ -70,7 +78,7 @@ export default function Nav() {
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/integrantes#cigano">
+                  <a className="dropdown-item navLink" onClick={() => integrante("cigano")}>
                     Diogo Rogério Cigano
                   </a>
                 </li>
@@ -78,7 +86,7 @@ export default function Nav() {
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/embreve">
+                  <a className="dropdown-item navLink" href="/embreve">
                     Lizandra
                   </a>
                 </li>
@@ -86,7 +94,7 @@ export default function Nav() {
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/embreve">
+                  <a className="dropdown-item navLink" href="/embreve">
                     Sopa (ex. Integrante)
                   </a>
                 </li>
