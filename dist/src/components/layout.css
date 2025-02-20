@@ -20,12 +20,12 @@ body {
 
 .nav_estilo {
   background-color: rgb(255, 255, 227);
-  border-bottom: dotted;
+  border-bottom: var(--borda);
 }
 
 .footer_estilo {
   background-color: rgb(87, 1, 121);
-  border-top: dotted;
+  border-top: var(--borda);
   padding: 3%;
   justify-content: center;
   align-items: center;
@@ -44,7 +44,7 @@ body {
 
 .footer_margem {
   background-color: rgb(255, 255, 255);
-  border-top: dotted;
+  border-top: var(--borda);
   padding: 1em;
   justify-content: center;
   align-items: center;
@@ -68,7 +68,7 @@ body {
   background-color: rgba(172, 34, 232, 0.535);
   margin: 2rem;
   border-radius: 20px;
-  border-style: dotted;
+  border-style: var(--borda);
 
   p {
     text-align: justify;
@@ -91,7 +91,7 @@ body {
   background-color: rgba(244, 53, 158, 0.56);
   margin: 2rem;
   border-radius: 20px;
-  border-style: dotted;
+  border-style: var(--borda);
 
   p {
     text-align: justify;
@@ -118,7 +118,7 @@ body {
   width: 25%;
   margin: 3%;
   border-radius: 20px;
-  border-style: dotted;
+  border-style: var(--borda);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -135,7 +135,7 @@ body {
 .flyer {
   background-color: rgba(244, 53, 158, 0.56);
   border-radius: 20px;
-  border: dotted;
+  border: var(--borda);
   padding: 2rem;
   margin: 2rem;
   display: flex;
@@ -151,7 +151,7 @@ body {
     border-radius: 20px;
     border-color: black;
     border: black;
-    border-style: dotted;
+    border-style: var(--borda);
   }
 }
 .flyer:hover {
@@ -161,7 +161,7 @@ body {
 .quadroFoto {
   background-color: rgb(255, 255, 227);
   border-radius: 20px;
-  border: dotted;
+  border: var(--borda);
   padding: 2rem;
   margin: 2rem;
   display: flex;
@@ -178,6 +178,38 @@ body {
   }
 }
 
+.miniFoto{
+  border-radius: 20px;
+  background-color: rgba(255, 253, 149, 0.603);
+  border: var(--borda);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: var(--miniFoto);    
+  text-decoration: underline;
+  color: #0d6efd;
+  border-color: black;
+  cursor: pointer;
+  img {
+    width: var(--miniFoto);
+    border-radius: 20px;
+    border: var(--borda);
+    border-color: black;
+  }
+  a{
+    margin-top: 1rem;
+  }
+}
+.miniFoto:hover{
+  color: #0a58ca;
+  background-color: rgba(255, 253, 149, 0.712);
+}
+
 .carrossel {
   display: block;
   width: 100vh;
@@ -186,7 +218,7 @@ body {
   border-radius: 3%;
   img {
     border-radius: 3%; /*duplicado para evitar bugs de transição, onde fica quadrado enquanto*/
-    border: dotted;
+    border: var(--borda);
     display: block;
     width: 100%;
   }
@@ -212,7 +244,7 @@ body {
   background-color: rgba(244, 53, 158, 0.56);
   margin: 2rem;
   border-radius: 20px;
-  border-style: dotted;
+  border-style: var(--borda);
 }
 .flyer {
   margin: 1rem;
@@ -245,7 +277,20 @@ body {
     width: 100%;
     margin-bottom: 3rem;
   }
+  .miniFoto{
+    width: 80%;
+    img{
+      width:60%;
+    }
+  }
+  :root{
+    --borda: dashed;
+    --miniFoto: 90%;
+  }
 }
+
 :root{
   --quadroFoto: 25%;
+  --borda: dotted;
+  --miniFoto: 50%;
 }

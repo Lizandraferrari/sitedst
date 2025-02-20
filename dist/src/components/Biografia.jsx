@@ -1,5 +1,7 @@
 import Card from "./Card";
 import FotoLink from "./FotoLink";
+import MiniFoto from "./MiniFoto";
+
 export default function Biografia({
   foto1,
   foto2,
@@ -32,7 +34,10 @@ export default function Biografia({
       </div>
 
       <div className="pai_responsiva">
-        <Card card_conteudo={bio2} card_cor={"card_rosa"}></Card>
+        <Card 
+        card_conteudo={bio2} 
+        card_cor={"card_rosa"}
+        ></Card>
         <FotoLink
           foto={foto2}
           txtlink1={instaUser2}
@@ -40,14 +45,14 @@ export default function Biografia({
           tituloFoto={"Foto por:"}
         ></FotoLink>
       </div>
-{/*
+
       <div className="pai_responsiva">
       <MiniFoto
         nome={integrante}
-        caminho={idIntegrante}
+        ancora={idIntegrante}
       ></MiniFoto>
       </div>
-       */}
+      
       </section>
     </>
   );

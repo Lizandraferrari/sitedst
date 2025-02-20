@@ -7,8 +7,9 @@ export default function Integrantes () {
         <div>
             <Cabecalho titulo={"Dstesudos 😋"}></Cabecalho>
             {
-                integrantes.map((dado) => (
+                integrantes.map((dado , i) => (
                     <Biografia
+                        key={i}
                         foto1={dado.foto1}
                         foto2={dado.foto2}
                         instaUser1={dado.instaUser1}
