@@ -2,6 +2,7 @@ import { Outlet, useLocation } from "react-router-dom";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import { useEffect } from "react";
+import Chevron from "../Chevron.jsx";
 
 export default function Layout() {
   const location = useLocation();
@@ -19,7 +20,8 @@ export default function Layout() {
     <div className=" layout ">
       <Nav></Nav>
       <main className="preenchimento">
-        <Outlet></Outlet>
+        <Outlet></Outlet>      
+        <Chevron></Chevron>
       </main>
       <Footer></Footer>
     </div>

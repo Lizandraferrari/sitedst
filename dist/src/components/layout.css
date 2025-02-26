@@ -28,6 +28,7 @@ body {
 .navLink:hover{
   cursor: pointer;
   color: black;
+  background: none;
 }
 
 .footer_estilo {
@@ -256,6 +257,24 @@ body {
 .flyer {
   margin: 1rem;
   width: 25%;
+}
+
+.go-top{
+  background-color: rgba(255, 253, 149, 0.644);
+  padding: 1rem;
+  border-radius: 20px;
+  display: block;
+  position: fixed;
+  right: 3rem;
+  bottom: 3rem;
+  cursor: pointer;
+  -webkit-filter: drop-shadow(10px 5px 5px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(10px 5px 5px rgba(0, 0, 0, 0.3));
+}
+.go-top:hover{
+  background-color: rgba(255, 253, 149, 0.747);
+  -webkit-filter: drop-shadow(10px 5px 5px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(10px 5px 5px rgba(0, 0, 0, 0.5));
 }
 
 @media only screen and (max-width: 500px) {

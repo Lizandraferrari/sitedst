@@ -12,7 +12,7 @@ export default function Nav() {
   }
   
   return (
-    <nav className="navbar navbar-expand-lg navbar-expand-md nav_estilo">
+    <nav className="navbar navbar-expand-lg navbar-expand-md nav_estilo" id = "inicio">
       <div className="container-fluid">
         <button
           className="navbar-toggler"
