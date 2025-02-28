@@ -71,7 +71,7 @@ export default function Nav() {
                 </li>
                 <li>
                   <a className="dropdown-item navLink" onClick={() => integrante("maylson")}>
-                    May Tsé Tung
+                    Maylson das Teclas
                   </a>
                 </li>
                 <li>

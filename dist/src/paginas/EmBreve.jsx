@@ -1,12 +1,13 @@
+import { Link } from "react-router-dom";
 import Card from "../components/Card";
 
 export default function EmBreve() {
   return (
     <>
-      <Card
-        card_cor={"card_roxo"}
-        card_titulo={"algum dia essa página será implementada."}
-      />
+            <Link to={"/integrantes"} className="emBreve"
+        >Ver mais sobre os outros integrantes</Link>
+
+
     </>
   );
 }
