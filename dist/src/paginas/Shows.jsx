@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Dropdown from "react-bootstrap/Dropdown";
 import roles from "../docsJson/roles.json";
 import Cabecalho from "../components/Cabecalho";
+import Flyer from "../components/Flyer";
 
 export default function Shows() {
   let shows = roles //só pra evitar bug 
@@ -67,14 +68,15 @@ export default function Shows() {
       {[...eventosPorAno.keys()].map((ano) => ( //foi separado por ano, ai só pega o elemento do argumento
         <div key={ano} style={{ marginTop: "3rem" }}>
           <h1 style={{ textAlign: "center" }}>Rolês de {ano}:</h1>
-          <div className="agrupa_itens">
 
+          <div className="agrupa_itens">
             {eventosPorAno.get(ano).map((role, index) => ( // renderiza com base no ano
-              <div key={index} className="flyer">
-                <img src={role.imagem} />
-                <h5>{role.evento}</h5>
-                <p>{role.dataBR}</p>
-              </div>
+                <Flyer
+                  id = {index}
+                  imagem={role.imagem}
+                  evento={role.evento}
+                  data={role.dataBR}
+                ></Flyer>
             ))}
           </div>
         </div>
