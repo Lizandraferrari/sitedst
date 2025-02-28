@@ -4,7 +4,8 @@
         "imagem": "/img/flyer/2024/24-01-20 vidraca4.jpg",
         "evento": "Vidraça 4",
         "bandas": "",
-        "data": "2024-01-20"
+        "data": "2024-01-20",
+        "dataBR": "20 de janeiro de 2024"
     },
     {
         "id": 1,
@@ -15,7 +16,8 @@
             "Lepra",
             "Malditos Jovens do Reggae"
         ],
-        "data": "2024-02-11"
+        "data": "2024-02-11",
+        "dataBR": "11 de fevereiro de 2024"
     },
     {
         "id": 2,
@@ -26,7 +28,8 @@
             "Xixi com sangue",
             "Nigéria Futebol Clube"
         ],
-        "data": "2024-03-08"
+        "data": "2024-03-08",
+        "dataBR": "08 de março de 2024"
     },
     {
         "id": 3,
@@ -38,7 +41,8 @@
             "Greve",
             "Krocödil Doomdee"
         ],
-        "data": "2024-03-09"
+        "data": "2024-03-09",
+        "dataBR": "09 de março de 2024"
     },
     {
         "id": 4,
@@ -47,7 +51,8 @@
         "bandas": [
             "Chupão telepático e os vampiros de Curitiba"
         ],
-        "data": "2024-03-10"
+        "data": "2024-03-10",
+        "dataBR": "10 de março de 2024"
     },
     {
         "id": 5,
@@ -58,7 +63,8 @@
             "Poluição Sonora Gratuita",
             "Helkan"
         ],
-        "data": "2024-03-15"
+        "data": "2024-03-15",
+        "dataBR": "15 de março de 2024"
     },
     {
         "id": 6,
@@ -71,7 +77,8 @@
             "Subser",
             "Void It"
         ],
-        "data": "2024-03-16"
+        "data": "2024-03-16",
+        "dataBR": "16 de março de 2024"
     },
     {
         "id": 7,
@@ -83,7 +90,8 @@
             "Ariel Teske",
             "DJ Blua Discordia"
         ],
-        "data": "2024-03-29"
+        "data": "2024-03-29",
+        "dataBR": "29 de março de 2024"
     },
     {
         "id": 8,
@@ -96,7 +104,8 @@
             "Cerne",
             "Voyuer"
         ],
-        "data": "2024-03-30"
+        "data": "2024-03-30",
+        "dataBR": "30 de março de 2024"
     },
     {
         "id": 9,
@@ -106,7 +115,8 @@
             "Lasso",
             "Urutu"
         ],
-        "data": "2024-04-26"
+        "data": "2024-04-26",
+        "dataBR": "26 de abril de 2024"
     },
     {
         "id": 10,
@@ -116,7 +126,8 @@
             "Octopus Head",
             "Idade da Pedra"
         ],
-        "data": "2024-04-27"
+        "data": "2024-04-27",
+        "dataBR": "27 de abril de 2024"
     },
     {
         "id": 11,
@@ -127,7 +138,8 @@
             "Rebeldia Incontida",
             "Vítimas do Crack"
         ],
-        "data": "2024-05-11"
+        "data": "2024-05-11",
+        "dataBR": "11 de maio de 2024"
     },
     {
         "id": 12,
@@ -138,7 +150,8 @@
             "G. Paim",
             "Ghast Cloe"
         ],
-        "data": "2024-06-15"
+        "data": "2024-06-15",
+        "dataBR": "15 de junho de 2024"
     },
     {
         "id": 13,
@@ -149,7 +162,8 @@
             "Insônia",
             "Attack o Hetero"
         ],
-        "data": "2024-07-12"
+        "data": "2024-07-12",
+        "dataBR": "12 de julho de 2024"
     },
     {
         "id": 14,
@@ -160,7 +174,8 @@
             "Pele Fria",
             "Malfazer"
         ],
-        "data": "2024-08-03"
+        "data": "2024-08-03",
+        "dataBR": "03 de agosto de 2024"
     },
     {
         "id": 15,
@@ -170,7 +185,8 @@
             "Burrice Precoce",
             "Corpos Sem Órgãos"
         ],
-        "data": "2024-08-24"
+        "data": "2024-08-24",
+        "dataBR": "24 de agosto de 2024"
     },
     {
         "id": 16,
@@ -180,7 +196,8 @@
             "Guro",
             "Greve"
         ],
-        "data": "2024-09-07"
+        "data": "2024-09-07",
+        "dataBR": "07 de setembro de 2024"
     },
     {
         "id": 17,
@@ -191,7 +208,8 @@
             "Cü cöm Acëntö",
             "Vítimas do Crack"
         ],
-        "data": "2024-10-18"
+        "data": "2024-10-18",
+        "dataBR": "18 de outubro de 2024"
     },
     {
         "id": 18,
@@ -201,7 +219,8 @@
             "Asfixia Mental",
             "Trachoma"
         ],
-        "data": "2024-11-07"
+        "data": "2024-11-07",
+        "dataBR": "07 de novembro de 2024"
     },
     {
         "id": 19,
@@ -216,6 +235,33 @@
             "Infratores",
             "No Prejudice"
         ],
-        "data": "2024-12-28"
+        "data": "2024-12-28",
+        "dataBR": "28 de dezembro de 2024"
+    },
+    {
+        "id": 20,
+        "imagem": "/img/flyer/2025/25-02-08 dancanoia3.png",
+        "evento": "Dança Nóia Fest III",
+        "bandas": [
+            "Dente Canino",
+            "Desprezo",
+            "Fraca",
+            "Malfazer"
+        ],
+        "data": "2025-02-08",
+        "dataBR": "08 de fevereiro de 2025"
+    },
+    {
+        "id": 21,
+        "imagem": "/img/flyer/2025/25-03-02 moshloko.jpeg",
+        "evento": "Dança Nóia Fest III",
+        "bandas": [
+            "Disgöstö",
+            "Cú com acento",
+            "Paranóia Nuclear",
+            "Menores Poseidos"
+        ],
+        "data": "2025-03-02",
+        "dataBR": "02 de março de 2025"
     }
 ]
