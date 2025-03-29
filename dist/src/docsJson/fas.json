@@ -324,7 +324,19 @@
         "validade": "02/2030"
     },  
     {
-        "id": 48,
+        "id": 55,
+        "foto": "/img/carteirinhas/66646 Carteirinha fã clube canivete cortado.png",
+        "nome": "Canivete Afiado",
+        "validade": "03/2030"
+    },
+    {
+        "id": 56,
+        "foto": "/img/carteirinhas/66647 Carteirinha fã clube minin3.png",
+        "nome": "Minim3",
+        "validade": "03/2030"
+    },
+    {
+        "id": 57,
         "foto": "/img/carteirinhas/66669 Carteirinha fã clube gesiel.png",
         "nome": "Gesihell",
         "validade": "01/2030"

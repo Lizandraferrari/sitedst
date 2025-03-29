@@ -62,7 +62,7 @@ export default function Nav() {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item navLink" href="/embreve">
+                  <a className="dropdown-item navLink" onClick={() => integrante("edgard")}>
                     Edgard Cirilo
                   </a>
                 </li>

@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
-
 body {
   background-color: rgb(255, 126, 197);
   background: url("../img/background_psicodelico.gif");
-  font-family: "Comic Sans MS", sans-serif;
+  font-family: "Comic Neue", cursive;
 }
 
 .layout {
@@ -309,9 +307,6 @@ body {
 
 
 @media only screen and (max-width: 500px) {
-  body{
-    font-family: 'Patrick Hand', cursive;
-  }
   .pai_responsiva {
     flex-direction: column;
     flex-wrap: nowrap;

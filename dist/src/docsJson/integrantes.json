@@ -1,38 +1,42 @@
 [
-    {
-      "foto1": "/img/integrantes/cigano/ciganovisky.png",
-      "foto2": "/img/integrantes/cigano/breja.png",
-      "instaUser1": "@olhossdevidro",
-      "instaUser2": "@olhossdevidro",
-      "instaLink1": "https://www.instagram.com/olhossdevidro/",
-      "instaLink2": "https://www.instagram.com/olhossdevidro/",
-      "bio1": "Nascido em 22/10/1982 na cidade de Santana no Amapá, cresceu em um ambiente fortemente influenciado por bandas como Calcinha Preta, Aviões do Forró, Bonde do Maluco, etc. Aos 14 anos, teve sua primeira guitarra e, devido às suas grandes habilidades com o brega e forró, entrou como músico nas maiores bandas presentes no cenário da época. Porém, por conta da sua pouca idade, tocava escondido atrás dos palcos enquanto um dublê encenava sua performance durante os shows.",
-      "bio2": "Em 2019, Cigano teve que fugir para Santo André - SP, pois teve um caso com as três esposas de um fazendeiro agiota muito influente na região e foi jurado de morte. Ao chegar no ABC paulista, para continuar praticando a música, sem ser descoberto, e junto a Liz e Maylson montou o conjunto de breganoise D.S.T Noise.",
-      "integrante": "Cigano Rogério",
-      "idIntegrante": "cigano"
-    },
-    {
-      "foto1": "/img/integrantes/maylson/maylson1.jpeg",
-      "foto2": "/img/integrantes/maylson/maylson2.jpg",
-      "instaUser1": "@sprite.com.gelado",
-      "instaUser2": "@mazzei.br",
-      "instaLink1": "https://www.instagram.com/sprite.com.gelado/",
-      "instaLink2": "https://www.instagram.com/mazzei.br/",
-      "bio1": "Nascido no povoado de Morro redondo Oeiras-PI, descobriu sua habilidades com os gritos ainda mininote no oficio de vaqueiro gritando pra boiada 'eeee boi', e logo entendeu que isso valia também pra lidar com outro tipo de corno. Junto de seu teclado, Maylson das Teclas fez sucesso nos povoados do interior do Piauí com seu brega gritado que fazia até defunto levanta pra ir tomar uma.",
-      "bio2": "Porém, em 2019 acabou se envolvendo num rebuliço em um forró risca faca, acabando por passar a pexeira em uns 4 cabras e ainda saiu sem levar nenhum arranhão por ter o corpo fechado. Para evitar a pena do xilindró resolveu sair corrido das terras piauienses e buscar novos áres em Santo André-SP, onde conheceu Cigano das Cordas em uma bodega na qual o amapaense viu sua cantoria fazer com que dois homens fossem pro pau por causa de uma mulher. A partir de então, juntamente a Liz, eles fundaram a banda de breganoise D.S.T Noise",
-      "integrante": "Maylson das Teclas",
-      "idIntegrante": "maylson"
-    },
-    {
-      "foto1": "/img/integrantes/lizandra/lizandra2.JPG",
-      "foto2": "/img/integrantes/lizandra/lizandra1.jpg",
-      "instaUser1": "@emocvre",
-      "instaUser2": "@bymybatview",
-      "instaLink1": "https://www.instagram.com/emocvre",
-      "instaLink2": "https://www.instagram.com/bymybatview/",
-      "bio1": "Nascida na cidade de Santa Rita do Passa Quatro em São Paulo, Lizandra costumava realizar meditação diariamente, após suas obrigações de escoteira, ao lado de cada um quatro rios da cidade. Muitos anos depois, durante uma meditação diária, foi implementado a habilidade de tocar bateria em seu corpo e mente, e Lizandra decidiu se tornar a maior baterista de Santa Rita do Passa Quatro. ",
-      "bio2": "Em 2019 ela se mudou para o ABC Paulista, na cidade de Mauá, assim como viu em suas meditações, e conheceu mais duas pessoas que sairam de suas terras em busca de provar suas técnicas sonoras, o Cigano e o Maylson, e então foi convidada a participar como baterista da banda D.S.T Noise.",
-      "integrante": "Lizandra",
-      "idIntegrante": "lizandra" 
-    }
-  ]
+  {
+    "foto1": "/img/integrantes/cigano/ciganovisky.png",
+    "foto2": "/img/integrantes/cigano/breja.png",
+    "instaUser1": "olhossdevidro",
+    "instaUser2": "olhossdevidro",
+    "bio1": "Nascido em 22/10/1982 na cidade de Santana no Amapá, cresceu em um ambiente fortemente influenciado por bandas como Calcinha Preta, Aviões do Forró, Bonde do Maluco, etc. Aos 14 anos, teve sua primeira guitarra e, devido às suas grandes habilidades com o brega e forró, entrou como músico nas maiores bandas presentes no cenário da época. Porém, por conta da sua pouca idade, tocava escondido atrás dos palcos enquanto um dublê encenava sua performance durante os shows.",
+    "bio2": "Em 2019, Cigano teve que fugir para Santo André - SP, pois teve um caso com as três esposas de um fazendeiro agiota muito influente na região e foi jurado de morte. Ao chegar no ABC paulista, para continuar praticando a música, sem ser descoberto, e junto a Liz e Maylson montou o conjunto de breganoise D.S.T Noise.",
+    "integrante": "Cigano Rogério",
+    "idIntegrante": "cigano"
+  },
+  {
+    "foto1": "/img/integrantes/maylson/maylson1.jpeg",
+    "foto2": "/img/integrantes/maylson/maylson2.jpg",
+    "instaUser1": "sprite.com.gelado",
+    "instaUser2": "mazzei.br",
+    "bio1": "Nascido no povoado de Morro redondo Oeiras-PI, descobriu sua habilidades com os gritos ainda mininote no oficio de vaqueiro gritando pra boiada 'eeee boi', e logo entendeu que isso valia também pra lidar com outro tipo de corno. Junto de seu teclado, Maylson das Teclas fez sucesso nos povoados do interior do Piauí com seu brega gritado que fazia até defunto levanta pra ir tomar uma.",
+    "bio2": "Porém, em 2019 acabou se envolvendo num rebuliço em um forró risca faca, acabando por passar a pexeira em uns 4 cabras e ainda saiu sem levar nenhum arranhão por ter o corpo fechado. Para evitar a pena do xilindró resolveu sair corrido das terras piauienses e buscar novos áres em Santo André-SP, onde conheceu Cigano das Cordas em uma bodega na qual o amapaense viu sua cantoria fazer com que dois homens fossem pro pau por causa de uma mulher. A partir de então, juntamente a Liz, eles fundaram a banda de breganoise D.S.T Noise",
+    "integrante": "Maylson das Teclas",
+    "idIntegrante": "maylson"
+  },
+  {
+    "foto1": "/img/integrantes/lizandra/lizandra2.JPG",
+    "foto2": "/img/integrantes/lizandra/lizandra1.jpg",
+    "instaUser1": "emocvre",
+    "instaUser2": "bymybatview",
+    "bio1": "Nascida na cidade de Santa Rita do Passa Quatro em São Paulo, Lizandra costumava realizar meditação diariamente, após suas obrigações de escoteira, ao lado de cada um quatro rios da cidade. Muitos anos depois, durante uma meditação diária, foi implementado a habilidade de tocar bateria em seu corpo e mente, e Lizandra decidiu se tornar a maior baterista de Santa Rita do Passa Quatro.",
+    "bio2": "Em 2019 ela se mudou para o ABC Paulista, na cidade de Mauá, assim como viu em suas meditações, e conheceu mais duas pessoas que sairam de suas terras em busca de provar suas técnicas sonoras, o Cigano e o Maylson, e então foi convidada a participar como baterista da banda D.S.T Noise.",
+    "integrante": "Lizandra",
+    "idIntegrante": "lizandra"
+  },
+  {
+    "foto1":"/img/integrantes/edgard/ed1.jpg",
+    "foto2":"/img/integrantes/edgard/ed2.jpg",
+    "instaUser1":"mazzei.br",
+    "instaUser2":"olhossdevidro",
+    "integrante": "Edgard Cirilo",
+    "idIntegrante": "edgard",
+    "bio1":"Edgard Cirilo era um dos percussionistas da escola de samba do vai-vai, e durante o desfile do carnaval de 2013, foi abordado por um estrangeiro chamado Corey Taylor que contou sobre o colega de banda Joey Jordison querer sair da banda deles, e convidou ele para participar na bateria no lugar dele. Por conta de sua insegurança de nunca ter tocado numa banda de rock pesado, negou o pedido do gringo e iniciou sua jornada de conhecimento do rock pesado, onde por anos estudou técnicas de canto e de blast beat.",
+    "bio2": "Chegando no ano de 2020, Edgard teve um sonho onde tocava com um pessoal do ABC, e foi roubando os microfones de todas bandas, até que no último carnaval antes da covid, roubou um microfone que conquistou a banda D.S.T, e então virou novo berrador da banda. Recentemente o gringo fez a mesma proposta novamente, mas Edgard optou por indicar o amigo Eloy Casagrande para tocar no lugar dele."
+  }
+]

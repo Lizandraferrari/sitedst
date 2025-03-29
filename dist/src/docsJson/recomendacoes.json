@@ -20,5 +20,12 @@
         "pessoa": "Maylson das Teclas",
         "urlPlaylist": "https://open.spotify.com/embed/playlist/1k7gxSP9yiHGcwqUVzNW8h?utm_source=generator",
         "recado1": "Eu odeio rock"
+    },
+    {
+        "id": 3,
+        "section":"edgard",
+        "pessoa":"Ed Popzeiro dos noise",
+        "urlPlaylist":"https://open.spotify.com/embed/playlist/4v100zkgUfINM58yqw7kzT?utm_source=generator",
+        "recado1":"Eu diria que ouvir faixar separadas de \"Gero me\" do SETE STAR SEPT e \"É só dizer que sim\" do Pablo, é um crime. Isso é um fato"
     }
 ]
