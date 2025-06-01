@@ -1,7 +1,7 @@
 body {
   background-color: rgb(255, 126, 197);
   background: url("../img/background_psicodelico.gif");
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue";
 }
 
 .layout {
@@ -119,6 +119,7 @@ body {
 
 .agrupa_itens {
   margin: 1rem;
+  margin-bottom: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;

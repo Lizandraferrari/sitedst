@@ -1,0 +1,62 @@
+[
+    {
+        "nome": "Adesivo Com A Logo",
+        "imagem": "/img/merch/adesivoig.png",
+        "status": "Disponível"
+    },
+    {
+        "nome": "Caneca R.A.I.M.C",
+        "imagem": "/img/merch/canecaraimc.jpeg",
+        "status": "Esgotado"
+    },
+    {
+        "nome": "Caneca No Brega Nós Cremos",
+        "imagem": "/img/merch/canecabrega.jpg",
+        "status": "Esgotado"
+    },
+    {
+        "nome": "Fita 7 Way Quarentine Days Are Hell",
+        "imagem": "/img/play/fita.jpg",
+        "status": "Esgotado"
+    },
+    {
+        "nome": "Fita Protocolo Antirreptiliano",
+        "imagem": "/img/merch/fitaprotocol.jpg",
+        "status": "Esgotado"
+    },
+    {
+        "nome": "Os 20 Super Sucessos",
+        "imagem": "/img/merch/20sucessos.jpg",
+        "status": "Esgotado"
+    },
+    {
+        "nome": "CD R.A.I.M.C",
+        "imagem": "/img/merch/cdraimc.jpeg",
+        "status": "Esgotado"
+    },
+    {
+        "nome": "Camiseta Logo Clássica",
+        "imagem": "/img/merch/camisetalogo.jpg",
+        "status": "Esgotado"
+    },
+    {
+        "nome": "Camiseta Logo Antirreptiliano",
+        "imagem": "/img/merch/logorosa.jpg",
+        "status": "Esgotado"
+    },
+    {
+        "nome": "Camiseta Integrantes",
+        "imagem": "/img/merch/camisetaintegrantes.jpg",
+        "status": "Disponível para encomenda"
+    },
+    {
+        "nome": "Presilha Logo",
+        "imagem": "/img/merch/presilha.jpg",
+        "status": "Disponível"
+    },
+    {
+        "nome": "Patchs Artesanais",
+        "imagem": "/img/merch/patchs.jpg",
+        "status": "Disponível para encomenda"
+    }
+]

@@ -1,5 +1,4 @@
 import nosAche from "../../docsJson/redes.json";
-const git = "https://github.com/Lizandraferrari/sitedst";
 
 export default function Footer() {
   const zap = "https://wa.me/5511959558735?text=Oiee,%20queria%20falar%20sobre%20a%20D.S.T%20Noise%20com%20vc%20(:"
@@ -25,10 +24,7 @@ export default function Footer() {
         <div className="footer_margem">
           <div className="row">
             <p>
-              💚 Desenvolvido por Liz{" "}
-              <a href={git} target="_blank">
-                <i className="bi bi-github"></i>
-              </a>
+              💚
             </p>
           </div>
         </div>

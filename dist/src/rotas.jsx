@@ -7,6 +7,7 @@ import EmBreve from "./paginas/EmBreve";
 import Shows from "./paginas/Shows";
 import Influencias from "./paginas/Influencias";
 import Integrantes from "./paginas/Integrantes";
+import Merch from "./paginas/Merch";
 
 export default function Rotas() {
   const router = createBrowserRouter([
@@ -45,7 +46,11 @@ export default function Rotas() {
 
         {
           path: "/integrantes",
-          element: <Integrantes  />, // fazer a /integrantes e ajeitar para receber uma variavel do nome
+          element: <Integrantes  />, 
+        } ,
+        {
+          path:"/merch",
+          element:<Merch></Merch>
         }
       ],
     },
